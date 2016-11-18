@@ -21,6 +21,10 @@
 
 #include <sparse/sparse.h>
 
+#ifndef _LARGEFILE64_SOURCE
+#define _LARGEFILE64_SOURCE 1
+#endif
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/types.h>
